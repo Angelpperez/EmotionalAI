@@ -1,0 +1,29 @@
+{
+  "profile": "affectnetfiltered-vit",
+  "protocol_version": "1.0",
+  "experiment_name": "Technical validation on AffectNetFiltered",
+  "dataset_name": "AffectNetFiltered",
+  "dataset_root": "D:/DATASETS/archive/AffectNetPrepared",
+  "archive_path": "D:/DATASETS/archive.zip",
+  "partitions": {"train_class_Final": "train", "val_class_Final": "validation"},
+  "source_labels": {
+    "neutral": "neutral", "fear": "fear", "anger": "anger", "happy": "happiness",
+    "sad": "sadness", "disgust": "disgust", "surprise": "surprise", "contempt": null
+  },
+  "model_id": "trpakov/vit-face-expression",
+  "model_revision": "ef0bc6fc34241b6587e7e009e7711357be28c024",
+  "seed": 42,
+  "batch_size": 16,
+  "pilot_size": 32,
+  "expected_evaluation_n": 3263,
+  "expected_evaluation_counts": {"neutral": 483, "fear": 444, "anger": 472, "happiness": 491, "sadness": 462, "disgust": 455, "surprise": 456},
+  "attention_implementation": "eager",
+  "allowed_stages": ["inspect", "vit", "metrics", "figures", "embeddings", "attention", "calibration"],
+  "forbidden_stages": ["openface", "svc"],
+  "cache_root": "D:/EmotionRecognitionRuntime/affectnet_replication/cache",
+  "paper_reference_accuracy": 0.439,
+  "preprocessing_note": "CLAHE/Gaussian Blur described by distribution; parameters and original AffectNet split identity unverified.",
+  "dataset_source_url": "https://www.kaggle.com/datasets/tanzeekhan/affectnetfiltered",
+  "dataset_source_version": "unverified",
+  "download_date": null
+}

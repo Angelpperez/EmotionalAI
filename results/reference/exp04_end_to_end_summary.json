@@ -1,0 +1,179 @@
+{
+  "experiment": "camera -> ocular localization -> eye features -> stress3 model -> UDP -> Blender difficulty -> ACK",
+  "model": "C:\\Users\\angel\\source\\repos\\EmotionRecognition\\outputs\\emotion_benchmark\\run_20260616_034800\\models\\stress3\\eye_legacy6_live_compatible__LogReg_balanced.joblib",
+  "eye_detector": {
+    "backend": "mediapipe_face_mesh_iris",
+    "mediapipe_version": "0.10.21",
+    "opencv_version": "4.11.0",
+    "landmark_count": 478,
+    "refine_landmarks": true,
+    "min_eye_openness": 0.04,
+    "signal": "polar angle of the iris-center displacement in each eye-local coordinate frame"
+  },
+  "camera_source": 1,
+  "requested_frame_width": 1280,
+  "requested_frame_height": 720,
+  "reported_frame_width": 1280,
+  "reported_frame_height": 720,
+  "rotation_degrees": 0,
+  "mirrored": false,
+  "requested_duration_seconds": 60.0,
+  "session_duration_seconds": 60.0900472,
+  "session_start_wall": 1781912470.2357128,
+  "completion_reason": "duration_completed",
+  "completed_requested_duration": true,
+  "frames_captured": 998,
+  "camera_read_failures": 0,
+  "camera_placeholder_frames": 75,
+  "camera_startup_placeholder_frames": 75,
+  "camera_startup_timeout_seconds": 30.0,
+  "frames_with_valid_eye_detection": 998,
+  "valid_eye_frame_percent": 100.0,
+  "effective_capture_fps": 16.608407656567792,
+  "messages_sent": 105,
+  "messages_acknowledged": 105,
+  "ack_errors": 0,
+  "packet_loss_percent": 0.0,
+  "predicted_state_counts": {
+    "low": 62,
+    "high": 43
+  },
+  "adaptation_commands_applied": 105,
+  "difficulty_transitions": 11,
+  "visual_change_events": 12,
+  "changed_tagged_objects_total": 122,
+  "temporal_window_seconds": 2.0,
+  "minimum_temporal_window_samples": 10,
+  "maximum_eye_sample_age_seconds": 0.25,
+  "frame_read": {
+    "count": 998,
+    "mean_ms": 5.039165731462926,
+    "median_ms": 4.89225,
+    "std_ms": 1.0408861751589011,
+    "min_ms": 2.7356,
+    "p95_ms": 6.752415,
+    "max_ms": 21.3388
+  },
+  "eye_processing": {
+    "count": 998,
+    "mean_ms": 23.702000300601203,
+    "median_ms": 23.405450000000002,
+    "std_ms": 2.312496756082175,
+    "min_ms": 15.3351,
+    "p95_ms": 27.04155,
+    "max_ms": 48.8593
+  },
+  "observed_eye_window_seconds": {
+    "count": 105,
+    "mean": 1.931472242857143,
+    "median": 1.9362286,
+    "std": 0.020357550867183716,
+    "min": 1.8150632,
+    "p95": 1.95659556,
+    "max": 1.960097
+  },
+  "observed_eye_sample_rate_fps": {
+    "count": 105,
+    "mean": 16.8878492040055,
+    "median": 17.07929509011036,
+    "std": 0.9462931491808318,
+    "min": 11.994337004156716,
+    "p95": 17.927643579100142,
+    "max": 18.555288342222603
+  },
+  "latest_eye_sample_age_seconds": {
+    "count": 105,
+    "mean": 0.03923670380952381,
+    "median": 0.0389909,
+    "std": 0.0026773582363506343,
+    "min": 0.0321648,
+    "p95": 0.0445867,
+    "max": 0.0466096
+  },
+  "feature_computation": {
+    "count": 105,
+    "mean_ms": 0.4179733333333333,
+    "median_ms": 0.4105,
+    "std_ms": 0.09946043208875603,
+    "min_ms": 0.2511,
+    "p95_ms": 0.5785,
+    "max_ms": 0.7443
+  },
+  "inference": {
+    "count": 105,
+    "mean_ms": 27.432986666666668,
+    "median_ms": 26.5836,
+    "std_ms": 3.8906146096942917,
+    "min_ms": 20.8897,
+    "p95_ms": 33.75588,
+    "max_ms": 36.9634
+  },
+  "udp_send_to_receive": {
+    "count": 105,
+    "mean_ms": 15.47930857142857,
+    "median_ms": 9.5254,
+    "std_ms": 43.35337548616759,
+    "min_ms": 0.3374,
+    "p95_ms": 28.41686,
+    "max_ms": 436.2292
+  },
+  "blender_apply": {
+    "count": 105,
+    "mean_ms": 0.9594457142857142,
+    "median_ms": 0.8851,
+    "std_ms": 0.288597577162311,
+    "min_ms": 0.4448,
+    "p95_ms": 1.40696,
+    "max_ms": 3.1368
+  },
+  "udp_round_trip": {
+    "count": 105,
+    "mean_ms": 18.13062761904762,
+    "median_ms": 11.9295,
+    "std_ms": 43.35857416081554,
+    "min_ms": 2.6971,
+    "p95_ms": 31.1711,
+    "max_ms": 438.6171
+  },
+  "latest_frame_to_blender_apply": {
+    "count": 105,
+    "mean_ms": 83.68098380952381,
+    "median_ms": 78.084,
+    "std_ms": 43.37037166188263,
+    "min_ms": 58.608,
+    "p95_ms": 98.5444,
+    "max_ms": 501.757
+  },
+  "latest_frame_to_ack": {
+    "count": 105,
+    "mean_ms": 85.37285714285714,
+    "median_ms": 79.6287,
+    "std_ms": 43.40049152775731,
+    "min_ms": 60.0346,
+    "p95_ms": 100.37237999999999,
+    "max_ms": 503.3412
+  },
+  "oldest_window_frame_to_apply": {
+    "count": 105,
+    "mean_ms": 2015.1532266666666,
+    "median_ms": 2011.6669,
+    "std_ms": 50.43267596135591,
+    "min_ms": 1879.4435,
+    "p95_ms": 2040.0562599999998,
+    "max_ms": 2461.854
+  },
+  "model_to_ack": {
+    "count": 105,
+    "mean_ms": 45.69469523809524,
+    "median_ms": 39.382,
+    "std_ms": 43.458270327483255,
+    "min_ms": 25.4441,
+    "p95_ms": 61.90343999999999,
+    "max_ms": 465.1387
+  },
+  "latency_interpretation": {
+    "latest_frame_to_blender_apply": "Software processing latency from completion of the latest webcam frame read to difficulty application in Blender.",
+    "oldest_window_frame_to_apply": "Observed decision delay including accumulation of the temporal eye-motion window.",
+    "excludes": "Physical display refresh, photon latency and human perceptual response."
+  }
+}

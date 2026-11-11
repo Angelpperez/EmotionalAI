@@ -1,0 +1,10 @@
+# Target: CPython 3.11. Actual runtime versions are saved for every run.
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.49.0
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==1.26.4
+matplotlib==3.10.0
+pillow==11.1.0
+tqdm==4.67.1

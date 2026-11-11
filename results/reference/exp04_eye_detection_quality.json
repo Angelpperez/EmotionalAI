@@ -1,0 +1,90 @@
+{
+  "source": 1,
+  "detector": {
+    "backend": "mediapipe_face_mesh_iris",
+    "mediapipe_version": "0.10.21",
+    "opencv_version": "4.11.0",
+    "landmark_count": 478,
+    "refine_landmarks": true,
+    "min_eye_openness": 0.04,
+    "signal": "polar angle of the iris-center displacement in each eye-local coordinate frame"
+  },
+  "requested_resolution": [
+    1280,
+    720
+  ],
+  "frames": 418,
+  "read_failures": 0,
+  "placeholder_frames": 81,
+  "placeholder_frame_percent": 19.37799043062201,
+  "valid_video_source": true,
+  "elapsed_seconds": 15.013352000009036,
+  "effective_fps": 27.841883677925384,
+  "face_frames": 337,
+  "face_frame_percent": 80.622009569378,
+  "one_eye_frames": 337,
+  "one_eye_frame_percent": 80.622009569378,
+  "two_eye_frames": 337,
+  "two_eye_frame_percent": 80.622009569378,
+  "one_pupil_frames": 337,
+  "one_pupil_frame_percent": 80.622009569378,
+  "two_pupil_frames": 337,
+  "two_pupil_frame_percent": 80.622009569378,
+  "face_width_pixels": {
+    "count": 337,
+    "mean": 193.87833827893175,
+    "median": 196.0,
+    "min": 182.0,
+    "max": 207.0
+  },
+  "face_height_pixels": {
+    "count": 337,
+    "mean": 235.09495548961425,
+    "median": 231.0,
+    "min": 224.0,
+    "max": 246.0
+  },
+  "eye_width_pixels": {
+    "count": 674,
+    "mean": 39.753709198813056,
+    "median": 43.0,
+    "min": 26.0,
+    "max": 49.0
+  },
+  "eye_height_pixels": {
+    "count": 674,
+    "mean": 17.64540059347181,
+    "median": 18.0,
+    "min": 10.0,
+    "max": 20.0
+  },
+  "eye_openness_ratio": {
+    "count": 674,
+    "mean": 0.3675674429717239,
+    "median": 0.3246512883731896,
+    "min": 0.06627974229736058,
+    "max": 0.5589155741382407
+  },
+  "normalized_iris_offset_x": {
+    "count": 674,
+    "mean": -0.05163041688412983,
+    "median": -0.13226027693742137,
+    "min": -0.254297377795071,
+    "max": 0.2462564015294239
+  },
+  "normalized_iris_offset_y": {
+    "count": 674,
+    "mean": -0.024559766140422972,
+    "median": -0.028225268821066955,
+    "min": -0.05932890112179217,
+    "max": 0.014101755054327534
+  },
+  "detector_processing_ms": {
+    "count": 337,
+    "mean": 22.828416617210685,
+    "median": 22.7045,
+    "min": 17.0781,
+    "max": 34.7213
+  },
+  "best_annotated_frame": "D:\\emotion3dgs_results\\closed_loop_e2e\\camera_tests\\android_mediapipe_eye_quality_active\\best_annotated_frame.jpg"
+}

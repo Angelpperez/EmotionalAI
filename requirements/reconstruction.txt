@@ -1,0 +1,7 @@
+-r base.txt
+opencv-python==4.13.0.92
+plyfile==1.1.4
+torchmetrics==1.9.0
+tyro==1.0.13
+viser==1.0.30
+PyYAML==6.0.3

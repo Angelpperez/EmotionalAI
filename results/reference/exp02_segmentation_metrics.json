@@ -1,0 +1,318 @@
+{
+  "input_ply": "C:\\Users\\angel\\source\\repos\\EmotionRecognition\\outputs\\tof_cleaning\\blaze101_canonical_270\\blaze101_tof_canonical_clean_conf_temporal_edges_sor20_std2.ply",
+  "input_points": 288043,
+  "method": "SOR-cleaned ToF -> RANSAC dominant plane -> organized connected components",
+  "plane_model": {
+    "normal": [
+      0.024892863105914306,
+      0.016534853183061755,
+      -0.9995533722601334
+    ],
+    "offset": -2129.966861049489,
+    "equation": "normal_x*x + normal_y*y + normal_z*z + offset = 0"
+  },
+  "ransac_distance_mm": 8.0,
+  "ransac_iterations": 1500,
+  "plane_inlier_points": 204645,
+  "plane_inlier_percent": 71.04668400204136,
+  "foreground_distance_mm": 15.0,
+  "foreground_candidate_points": 17912,
+  "component_count": 13,
+  "min_component_points": 500,
+  "border_margin_pixels": 2,
+  "accepted_components": 3,
+  "selected_rock_points": 3777,
+  "rejected_non_rock_points": 284266,
+  "candidate_components": [
+    {
+      "label": 1,
+      "points": 13906,
+      "pixel_bbox_uv": [
+        595,
+        0,
+        638,
+        479
+      ],
+      "pixel_centroid_uv": [
+        622.7184668488422,
+        269.4618869552711
+      ],
+      "touches_border": true,
+      "accepted": false
+    },
+    {
+      "label": 3,
+      "points": 1812,
+      "pixel_bbox_uv": [
+        315,
+        186,
+        367,
+        232
+      ],
+      "pixel_centroid_uv": [
+        343.39459161147903,
+        207.72185430463577
+      ],
+      "touches_border": false,
+      "accepted": true
+    },
+    {
+      "label": 4,
+      "points": 1262,
+      "pixel_bbox_uv": [
+        269,
+        234,
+        310,
+        278
+      ],
+      "pixel_centroid_uv": [
+        286.9350237717908,
+        256.66719492868464
+      ],
+      "touches_border": false,
+      "accepted": true
+    },
+    {
+      "label": 2,
+      "points": 703,
+      "pixel_bbox_uv": [
+        250,
+        166,
+        291,
+        209
+      ],
+      "pixel_centroid_uv": [
+        271.02418207681364,
+        184.72972972972974
+      ],
+      "touches_border": false,
+      "accepted": true
+    },
+    {
+      "label": 10,
+      "points": 102,
+      "pixel_bbox_uv": [
+        418,
+        474,
+        457,
+        479
+      ],
+      "pixel_centroid_uv": [
+        435.9901960784314,
+        477.61764705882354
+      ],
+      "touches_border": true,
+      "accepted": false
+    },
+    {
+      "label": 7,
+      "points": 43,
+      "pixel_bbox_uv": [
+        353,
+        470,
+        367,
+        475
+      ],
+      "pixel_centroid_uv": [
+        359.3488372093023,
+        472.4651162790698
+      ],
+      "touches_border": false,
+      "accepted": false
+    },
+    {
+      "label": 5,
+      "points": 26,
+      "pixel_bbox_uv": [
+        336,
+        465,
+        349,
+        471
+      ],
+      "pixel_centroid_uv": [
+        342.61538461538464,
+        468.3076923076923
+      ],
+      "touches_border": false,
+      "accepted": false
+    },
+    {
+      "label": 13,
+      "points": 18,
+      "pixel_bbox_uv": [
+        393,
+        477,
+        401,
+        479
+      ],
+      "pixel_centroid_uv": [
+        397.0,
+        477.6666666666667
+      ],
+      "touches_border": true,
+      "accepted": false
+    },
+    {
+      "label": 11,
+      "points": 13,
+      "pixel_bbox_uv": [
+        409,
+        476,
+        415,
+        479
+      ],
+      "pixel_centroid_uv": [
+        412.0769230769231,
+        477.53846153846155
+      ],
+      "touches_border": true,
+      "accepted": false
+    },
+    {
+      "label": 9,
+      "points": 10,
+      "pixel_bbox_uv": [
+        371,
+        472,
+        377,
+        474
+      ],
+      "pixel_centroid_uv": [
+        374.0,
+        473.2
+      ],
+      "touches_border": false,
+      "accepted": false
+    },
+    {
+      "label": 8,
+      "points": 7,
+      "pixel_bbox_uv": [
+        330,
+        472,
+        332,
+        474
+      ],
+      "pixel_centroid_uv": [
+        331.0,
+        472.7142857142857
+      ],
+      "touches_border": false,
+      "accepted": false
+    },
+    {
+      "label": 12,
+      "points": 6,
+      "pixel_bbox_uv": [
+        384,
+        477,
+        388,
+        478
+      ],
+      "pixel_centroid_uv": [
+        385.8333333333333,
+        477.1666666666667
+      ],
+      "touches_border": true,
+      "accepted": false
+    },
+    {
+      "label": 6,
+      "points": 4,
+      "pixel_bbox_uv": [
+        360,
+        469,
+        362,
+        470
+      ],
+      "pixel_centroid_uv": [
+        361.25,
+        469.5
+      ],
+      "touches_border": false,
+      "accepted": false
+    }
+  ],
+  "rocks": [
+    {
+      "rock_id": 1,
+      "source_component_label": 2,
+      "points": 703,
+      "pixel_bbox_uv": [
+        250,
+        166,
+        291,
+        209
+      ],
+      "centroid_xyz_mm": [
+        -179.9096788213738,
+        234.5017922891153,
+        -1930.2617135407406
+      ],
+      "axis_aligned_extent_xyz_mm": [
+        156.6950225830078,
+        169.08998107910156,
+        85.9083251953125
+      ],
+      "confidence_mean": 2286.601706970128,
+      "stable_observations_mean": 268.1066856330014,
+      "output_ply": "D:\\emotion3dgs_results\\tof_blaze101_clean\\rocks_segmented\\blaze101_tof_rock_01.ply"
+    },
+    {
+      "rock_id": 2,
+      "source_component_label": 3,
+      "points": 1812,
+      "pixel_bbox_uv": [
+        315,
+        186,
+        367,
+        232
+      ],
+      "centroid_xyz_mm": [
+        97.17652162277935,
+        150.46336358009322,
+        -1980.0507666312044
+      ],
+      "axis_aligned_extent_xyz_mm": [
+        202.75546169281006,
+        175.03021621704102,
+        89.5704345703125
+      ],
+      "confidence_mean": 2388.5115894039736,
+      "stable_observations_mean": 269.44260485651216,
+      "output_ply": "D:\\emotion3dgs_results\\tof_blaze101_clean\\rocks_segmented\\blaze101_tof_rock_02.ply"
+    },
+    {
+      "rock_id": 3,
+      "source_component_label": 4,
+      "points": 1262,
+      "pixel_bbox_uv": [
+        269,
+        234,
+        310,
+        278
+      ],
+      "centroid_xyz_mm": [
+        -121.3526627922965,
+        -39.98765594286699,
+        -1956.2271608573321
+      ],
+      "axis_aligned_extent_xyz_mm": [
+        162.0971565246582,
+        171.89623641967773,
+        77.8209228515625
+      ],
+      "confidence_mean": 2584.8391442155307,
+      "stable_observations_mean": 267.1378763866878,
+      "output_ply": "D:\\emotion3dgs_results\\tof_blaze101_clean\\rocks_segmented\\blaze101_tof_rock_03.ply"
+    }
+  ],
+  "combined_output_ply": "D:\\emotion3dgs_results\\tof_blaze101_clean\\rocks_segmented\\blaze101_tof_rocks_clean_combined.ply",
+  "preview": "D:\\emotion3dgs_results\\tof_blaze101_clean\\rocks_segmented\\rock_segmentation_preview.png",
+  "elapsed_seconds": 1.4303089000022737,
+  "limitations": [
+    "Axis-aligned extents are measured in the Basler camera frame.",
+    "Only surfaces visible from this fixed ToF viewpoint are present.",
+    "This segmentation is not a 3DGS model and has no RGB texture."
+  ]
+}

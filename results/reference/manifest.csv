@@ -1,0 +1,15 @@
+experiment,result,metric,value,unit,source
+exp01_rgb_colmap_3dgs,3DGS 7000,gaussians,373024,count,level_01_train_7000/stats/train_step6999_rank0.json
+exp01_rgb_colmap_3dgs,3DGS 7000,memory,0.6107964516,GB,level_01_train_7000/stats/train_step6999_rank0.json
+exp01_rgb_colmap_3dgs,hold-out,PSNR,29.777246,dB,level_01_eval_holdout_7000/stats/val_step6999.json
+exp01_rgb_colmap_3dgs,hold-out,SSIM,0.913685,ratio,level_01_eval_holdout_7000/stats/val_step6999.json
+exp01_rgb_colmap_3dgs,hold-out,LPIPS,0.297730,score,level_01_eval_holdout_7000/stats/val_step6999.json
+exp02_tof_cleaning,canonical cloud,input frames,270,count,outputs/tof_cleaning/blaze101_canonical_270/cleaning_metrics.json
+exp02_tof_cleaning,canonical cloud,points after SOR,288043,count,outputs/tof_cleaning/blaze101_canonical_270/cleaning_metrics.json
+exp03_vreed_benchmark,quad4 multimodal,F1 macro,0.722051,score,outputs/emotion_benchmark/run_20260616_034800
+exp03_vreed_benchmark,stress3 multimodal,F1 macro,0.734171,score,outputs/emotion_benchmark/run_20260616_034800
+exp03_vreed_benchmark,stress3 ocular,F1 macro,0.427370,score,outputs/emotion_benchmark/run_20260616_034800
+exp04_closed_loop,Android MediaPipe,duration,60.090,seconds,closed_loop_e2e/run_20260619_194050
+exp04_closed_loop,Android MediaPipe,valid eye frames,100,percent,closed_loop_e2e/run_20260619_194050
+exp04_closed_loop,Android MediaPipe,UDP loss,0,percent,closed_loop_e2e/run_20260619_194050
+exp04_closed_loop,Android MediaPipe,frame to Blender P95,98.5444,ms,closed_loop_e2e/run_20260619_194050

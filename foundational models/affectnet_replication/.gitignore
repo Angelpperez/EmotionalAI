@@ -1,0 +1,11 @@
+.venv/
+.venv311/
+.python/
+__pycache__/
+*.pyc
+data/*
+!data/README.md
+outputs/*
+!outputs/.gitkeep
+!outputs/README.md
+vendor/

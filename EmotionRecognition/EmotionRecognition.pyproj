@@ -21,7 +21,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="3D_gaussians\PyshGaussians\3dgs1.py" />
+    <Compile Include="3D_gaussians\PyshGaussians\3dgs.py" />
     <Compile Include="EmotionRecognition.py" />
+    <Compile Include="CLIP.py" />
+    <Compile Include="pipelinevreed.py" />
+    <Compile Include="VREED.py" />
+    <Compile Include="EyeTracking2.py" />
+    <Compile Include="clipfinal.py" />
+    <Compile Include="hist.py" />
+    <Compile Include="EyeTracking1.py" />
+    <Compile Include="EyeTracking.py" />
+    <Compile Include="vreedpipeline.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirments.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="3D_gaussians\" />
+    <Folder Include="3D_gaussians\PyshGaussians\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
